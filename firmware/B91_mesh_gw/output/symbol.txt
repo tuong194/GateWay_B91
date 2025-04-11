@@ -1,0 +1,1123 @@
+00000000 T _IRESET_ENTRY	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:320
+00000000 W _ITB_BASE_
+00000000 T _RETENTION_RESET_VMA_START	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:320
+00000000 A __BOOT_LOADER_EN
+00000000 A __FW_OFFSET
+00000000 A __FW_START_BY_BOOTLOADER_EN
+00000000 A __MCU_RUN_SRAM_EN
+00000000 A __PM_DEEPSLEEP_RETENTION_ENABLE
+00000000 A __SPEECH_ENABLE
+00000001 A __FLASH_512K_ENABLE
+00000022 t _ISTART	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:334
+0000002a t _ISWS_USB_DIS	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:342
+00000040 a irqno
+00000088 t _WAKEUP_FLASH	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:396
+000000a2 t _MSPI_WAIT	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:404
+000000bc t _WAIT_EFUSE_LOAD_FINISH	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:420
+000000c2 t _MULTI_ADDRESS_BEGIN	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:430
+000000d2 t _INO_RET_DATA_INIT	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:454
+000000ea t _INO_RET_DATA_INIT_BEGIN	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:458
+000000fc t _INO_RET_BSS_INIT	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:467
+00000110 t _INO_RET_BSS_BEGIN	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:471
+0000011c t _IDLM_DATA_INIT	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:479
+00000134 t _IDLM_DATA_INIT_BEGIN	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:483
+00000146 t _IDLM_BSS_INIT	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:492
+0000015a t _IDLM_BSS_BEGIN	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:496
+00000166 t _IZERO_AES	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:503
+0000017a t _IZERO_AES_BEGIN	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:507
+00000186 t _IFILL_STK	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:528
+00000186 t _IMAIN_FUNC	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:528
+0000019c t _IEND	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:539
+000001a0 B _AES_VMA_START
+000001a0 T _RETENTION_RESET_VMA_END
+000001a0 B aes_data_buff	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/aes.c:46
+000001c0 B _AES_VMA_END
+00000200 T _GLOBAL_VECTORS_DATA_VMA_START
+00000200 T __vectors
+00000302 T _GLOBAL_VECTORS_DATA_VMA_END
+00000308 D _RETENTION_DATA_VMA_START
+00000308 d tx_stl_auto_mode_high_freq	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/phy/phy.c:85
+0000030c d tx_stl_auto_mode	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/phy/phy.c:84
+00000310 D _DATA_VMA_START
+00000310 D _RETENTION_DATA_VMA_END
+00000310 d pkt_errRsp	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/attr/att.c:117
+0000031c d pkt_mtu_rsp	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/attr/att.c:131
+00000328 d ble_devName	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/attr/att.c:80
+0000033c D hci_rx_fifo	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:231
+00000348 D mesh_adv_fifo_fn2lpn	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_fn.c:941
+00000354 d pkt_scan_req	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_scan_ext.c:45
+00000368 D blc_smpMng	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/smp/smp.c:62
+00000380 D smpResSignalPkt	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/smp/smp.c:122
+0000039c D bltAtt	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/attr/att.c:58
+000003a8 D crc32_half_tbl.lto_priv.273
+000003e8 D hci_tx_fifo	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:221
+000003f4 D iv_idx_st	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:99
+00000408 D mesh_adv_cmd_fifo	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:140
+00000414 D model_sig_cfg_s_cps	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:752
+00000474 D pkt_scan_rsp	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_adv.c:81
+000004a0 d gw_node_info_addr_save	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/gw_node_info.c:39
+000004a4 d att_perm_auth_rdwd	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:188
+000004a5 d att_perm_auth_read	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:186
+000004a6 d clear_st.21977
+000004a7 D ct_flag	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/light.c:58
+000004a8 D factory_test_mode_en	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:2564
+000004ac D flash_capacity	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/ext_driver/ext_misc.c:100
+000004b0 D flash_sector_mac_address	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/blt_common.c:32
+000004b4 d mesh_key_addr	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:94
+000004b8 d mesh_misc_addr	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:95
+000004bc d mi_service_change_buf_perm	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:242
+000004bd d mi_service_change_ccc_perm	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:243
+000004be d mi_service_change_char_perm	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:241
+000004bf d mi_service_change_prop	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:237
+000004c0 d my_OtaProp	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:197
+000004c1 d my_PnPCharacter	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:85
+000004c2 d my_appearanceCharacter	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:75
+000004c3 d my_devNameCharacter	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:71
+000004c4 d my_fwRevisionCharacter	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:4551
+000004c8 d my_pb_gattInData	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:213
+000004cc d my_pb_gattOutData	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:208
+000004d0 d my_pb_gattUUID	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:201
+000004d2 d my_pb_gatt_in_prop	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:211
+000004d3 d my_pb_gatt_out_prop	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:205
+000004d4 d my_periConnParamChar	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:77
+000004d8 d my_periConnParameters	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:79
+000004e0 d my_proxy_gattUUID	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:215
+000004e4 d my_proxy_inData	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:225
+000004e6 d my_proxy_in_prop	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:223
+000004e8 d my_proxy_outData	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:220
+000004ea d my_proxy_out_prop	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:218
+000004eb d my_userdefine_prop	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:229
+000004ec D node_need_store_misc	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:92
+000004f0 D provision_In_ccc	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_proxy.c:47
+000004f4 D proxy_In_ccc	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_proxy.c:44
+000004f8 d scan_io_interval_us.23401
+000004fc D tbl_mac	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:86
+00000504 d uart_rx_dma_config	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/uart.c:75
+0000050c d uart_tx_dma_config	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/uart.c:45
+00000514 D CONN_SHORT_TOLERANCE_TIME	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:55
+00000518 d TXADDR	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/ext_driver/ext_rf.c:52
+0000051c d adc_vref_cfg	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/adc.c:34
+00000522 D adv_tick_refresh	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_adv.c:937
+00000524 D blc_SecReq_ctrl	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/smp/smp_peripheral.c:64
+00000528 D blc_adv_channel	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_adv.c:35
+0000052c D blc_connUpdateSendTime_us	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/l2cap/l2cap.c:248
+00000530 D blt_tx_empty_packet	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:166
+00000538 d enc_ivm	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:735
+0000053c d enc_ivs	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:737
+00000540 d enc_skdm	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:734
+00000548 d enc_skds	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:736
+00000550 D flash_sector_calibration	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/blt_common.c:33
+00000554 d g_pm_early_wakeup_time_us	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/pm.c:61
+0000055c d g_pm_r_delay_cycle	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/pm.c:76
+00000560 D ota_reboot_flag	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/chip_adapt_layer/al.c:142
+00000564 d pkt_slave_terminate	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:195
+00000568 d tick_rc24mCal	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/ext_driver/ext_pm.c:509
+0000056c D g_msg_vd_id	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:299
+0000056e D g_reliable_retry_cnt_def	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:295
+00000570 D mesh_adv_tx_cmd_sno	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:120
+00000574 D mesh_md_cfg_s_addr.lto_priv.290
+00000578 D mesh_md_g_onoff_level_addr.lto_priv.292
+0000057c D mesh_md_g_power_onoff_addr	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/generic_model.c:72
+00000580 D mesh_md_health_addr.lto_priv.291
+00000584 D mesh_md_light_ctl_addr	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:3263
+00000588 D mesh_md_light_hsl_addr	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/lighting_model_HSL.c:40
+0000058c D mesh_md_lightness_addr.lto_priv.293
+00000590 D mesh_md_scene_addr	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/scene.c:43
+00000594 D mesh_md_sensor_addr	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/sensors_model.c:34
+00000598 D mesh_md_time_schedule_addr	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/time_model.c:281
+0000059c D mesh_md_vd_light_addr.lto_priv.294
+000005a0 D mesh_provision_mag_addr.lto_priv.283
+000005a4 D mesh_sw_level_addr.lto_priv.282
+000005a8 D s_flash_preempt_config.lto_priv.274
+000005ac D sys_clk	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/clock.c:47
+000005b2 D _DATA_VMA_END
+000005b8 S _BSS_VMA_START
+000005b8 s adv_sn.25486
+000005bc s app_uuu.25725
+000005c0 s default_addr_random.20755
+000005c4 s fifo_cnt.20503
+000005c8 s filter_error_cnt.21199
+000005cc s fn_poll	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_fn.c:932
+000005ce s gateway_seg_buf_len	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:2971
+000005d0 s mesh_tx_cmd_busy_cnt.25485
+000005d2 s slave_status_record_idx	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_access_layer.c:53
+000005d4 s tid_cache_idx.20612
+000005d8 s A_debug_dev_comfirm_err.24368
+000005dc S adr_reset_cnt_idx.lto_priv.308
+000005e0 s advData_backup	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_adv.c:37
+000005e8 S adv_mesh_en_flag	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:628
+000005ec s beacon_100ms_cnt.25312
+000005f0 S client_del_node_adr_dst.lto_priv.302
+000005f4 S client_del_node_tick.lto_priv.301
+000005f8 S del_node_delay_ms.lto_priv.309
+000005fc S del_node_tick	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:4484
+00000600 s event_cb_num.23391
+00000604 S fast_prov_r_idx	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/fast_provision_model.c:206
+00000605 S fast_prov_w_idx	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/fast_provision_model.c:205
+00000606 s flash_write_err_cnt	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:3475
+00000608 S gateway_connect_filter.lto_priv.307
+0000060e S gateway_provision_para_enable.lto_priv.305
+00000610 S hb_pub_100ms	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_heartbeat.c:33
+00000614 S hb_sts_change	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_heartbeat.c:32
+00000618 S hb_sub_100ms	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_heartbeat.c:34
+0000061c s iv_update_by_sno.20535
+0000061e s key_report_1_OFF.20646
+00000620 s key_report_1_ON.20642
+00000622 s key_report_2_OFF.20647
+00000624 s key_report_2_ON.20643
+00000626 s key_report_3_OFF.20648
+00000628 s key_report_3_ON.20644
+0000062a s key_report_4_OFF.20649
+0000062c s key_report_4_ON.20645
+0000062e s key_report_DN.20651
+00000630 s key_report_L.20652
+00000632 s key_report_R.20653
+00000634 s key_report_UP.20650
+00000638 s led_count	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/light.c:1334
+0000063c S led_event_pending.lto_priv.306
+00000640 s led_is_on.21416
+00000644 s led_no.21415
+00000648 s led_sel.21413
+0000064c s led_tick.21414
+00000650 s led_toff.21412
+00000654 s led_ton.21411
+00000658 S link_close_end_tick	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:2156
+0000065c s link_close_start_tick	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:2861
+00000660 s mesh_adv_tx_cmd_sno_last	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:96
+00000664 S mesh_kr_filter_flag	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:629
+00000668 s mesh_node_out_oob_pub_key_tick	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:2145
+0000066c s mesh_provision_end_tick	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:2814
+00000670 S mesh_provisioner_buf_enable	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:630
+00000674 s mi_service_change_buf	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:238
+00000678 s mi_service_change_ccc	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:240
+0000067a s my_OtaData	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:199
+0000067c s my_appearance	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:78
+0000067e s my_userdefine_dat	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:230
+0000067f s prov_auth_en_flag	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:1176
+00000680 S prov_link_cls_code	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:53
+00000684 S provision_Out_ccc	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_proxy.c:48
+00000688 S provision_timeout_tick	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:201
+0000068c S proxy_Out_ccc	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_proxy.c:43
+0000068e s proxy_adv2gatt_err.24318
+0000068f s proxy_filter_initial_mode	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_proxy.c:39
+00000690 s reset_check_time.21978
+00000694 s rx_seg_reject_cache_idx.23639
+00000698 s rx_seg_reject_cache_not_empty_flag	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:2074
+00000699 S slave_status_buffer_rptr	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_access_layer.c:56
+0000069a S slave_status_buffer_wptr	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_access_layer.c:57
+0000069c S system_time_100ms	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/system_time.c:60
+000006a0 S system_time_ms	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/system_time.c:59
+000006a4 S system_time_s	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/system_time.c:61
+000006a8 s system_time_tick	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/system_time.c:62
+000006ac s test_proxy2mesh_err_cnt.23660
+000006b0 s tick.23400
+000006b4 s tick_check_complete	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:2048
+000006b8 s tick_light_save	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/light.c:408
+000006bc s tick_loop.23574
+000006c0 s tick_pub_period_check.23260
+000006c4 s trap0_cnt	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/chip_adapt_layer/al.c:636
+000006c8 s trap1_entry_ra	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/chip_adapt_layer/al.c:637
+000006cc s trap2_entry_sp	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/chip_adapt_layer/al.c:638
+000006d0 s trap3_entry_gp	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/chip_adapt_layer/al.c:639
+000006d4 s trap4_mcause	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/chip_adapt_layer/al.c:640
+000006d8 s trap5_mepc	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/chip_adapt_layer/al.c:641
+000006dc s trap6_mtvl	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/chip_adapt_layer/al.c:642
+000006e0 s trap7_mdcause	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/chip_adapt_layer/al.c:643
+000006e4 s trap8_mscratch	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/chip_adapt_layer/al.c:644
+000006e8 S uart_dma_sending_tick.lto_priv.303
+000006ec S uart_dma_tx_chn.lto_priv.304
+000006ee s uart_rx_irq	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/chip_adapt_layer/al.c:747
+000006f0 s uart_tx_irq	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/chip_adapt_layer/al.c:747
+000006f4 s adv_in_conn_tick	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/chip_adapt_layer/al.c:596
+000006f8 S adv_in_conn_tick_init_flag	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/chip_adapt_layer/al.c:597
+000006f9 S adv_retry_cnt	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_adv.c:926
+000006fc S advertise_prepare_handler	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_adv.c:919
+00000700 S blc_hci_event_handler	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/hci/hci.c:38
+00000704 S blc_hci_rx_handler	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/hci/hci.c:321
+00000708 S blc_hci_tx_handler	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/hci/hci.c:322
+0000070c S blc_l2cap_handler	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:68
+00000710 S blc_ll_procScanPktCb	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/chip_adapt_layer/al.c:471
+00000714 S blc_main_loop_data_cb	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:84
+00000718 S blc_main_loop_post_cb	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:85
+0000071c s blc_tlkEvent_pending	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:51
+00000720 s ble_actual_conn_interval_tick	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_pm.c:57
+00000724 s ble_first_rx_tick_last	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_pm.c:55
+00000728 s ble_first_rx_tick_pre	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_pm.c:56
+0000072c s bls_peer_start_enc_flag	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:65
+00000730 s blt_advExpectTime	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_adv.c:36
+00000734 s blt_bb	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:47
+00000738 s blt_ll_version_ind_rsp_flag	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_conn.c:35
+0000073c S blt_miscParam	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/ext_driver/ext_pm.c:80
+00000740 s blt_smp_empty_pkt_entry	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:740
+00000744 s bond_device_flash_cfg_idx	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/smp/smp_storage.c:54
+00000748 s ctx	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/hmac_telink.c:186
+0000074c S gAttributes	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/attr/att.c:75
+00000750 s g_num_used_chans	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_conn_csa.c:39
+00000751 s g_plic_preempt_en	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/plic.c:31
+00000752 s g_pm_long_suspend	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/pm.c:54
+00000754 S g_pm_multi_addr	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/pm.c:58
+00000758 s g_pm_tick_32k_calib	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/pm.c:51
+0000075c s g_pm_tick_32k_cur	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/pm.c:53
+00000760 s g_pm_tick_cur	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/pm.c:52
+00000764 S g_rnd_m_w	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/trng.c:49
+00000768 S g_rnd_m_z	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/trng.c:50
+0000076c S g_rng_function.lto_priv.285
+00000770 s g_single_tong_freqoffset	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/rf.c:1199
+00000771 s gw_distributor_fw_type_differ_flag.14557
+00000774 S hci_le_eventMask	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/hci/hci.c:161
+00000778 s host_ota_main_loop_cb	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/gap/gap.c:34
+0000077c s host_ota_terminate_cb	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/gap/gap.c:35
+00000780 s irq_rx_aux_adv_tick	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/chip_adapt_layer/al.c:167
+00000784 S ll_connComplete_handler	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:143
+00000788 S ll_connTerminate_handler	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:144
+0000078c S ll_host_main_loop_cb	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:70
+00000790 S ll_irq_rx_data_cb	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:78
+00000794 S ll_irq_scan_rx_pri_chn_cb	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:37
+00000798 S ll_irq_systemTick_conn_cb	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:82
+0000079c S ll_irq_tx_cb	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:76
+000007a0 S ll_leg_scan_mlp_task_cb	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:38
+000007a4 s lmp_tick	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:105
+000007a8 s lmp_timeout	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:106
+000007ac s need_check_type.14576
+000007b0 S otaResIndicateCb	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/service/ota/ota_server.c:43
+000007b4 S otaStartCb	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/service/ota/ota_server.c:41
+000007b8 S scan_priRxFifo	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:41
+000007c0 S smp_DistributeKeyInit	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/smp/smp.c:39
+000007c4 S smp_DistributeKeyResp	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/smp/smp.c:40
+000007c8 s smp_param_current_start_addr	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/smp/smp_storage.c:50
+000007cc s smp_param_next_start_addr	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/smp/smp_storage.c:51
+000007d0 S smp_phase_record	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/smp/smp.c:101
+000007d4 S smp_timeout_start_tick	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/smp/smp.c:43
+000007d8 s T_confilc_nid_cnt.22095
+000007da s T_key_error3.22089
+000007dc S adv_delay_val	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_adv.c:927
+000007de S app_adr	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:110
+000007e0 S att_service_discover_tick	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/attr/att.c:54
+000007e4 S beacon_iv_update_pkt.lto_priv.284
+000007e8 S blc_rcvd_connReq_tick	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_adv.c:38
+000007ec S blt_indicate_handle	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/attr/att.c:78
+000007f0 S blt_p_event_callback	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:185
+000007f4 s cache_idx.23444
+000007f8 S cpu_sleep_wakeup	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/ext_driver/ext_pm.c:84
+000007fc S ele_adr_primary	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:88
+00000800 S g_chip_version	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/sys.c:39
+00000804 s idx_num.23773
+00000808 S ll_adv2conn_cb	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_adv.c:40
+0000080c S ll_enter_pri_chn_scan_cb	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:39
+00000810 S ll_module_adv_cb	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_adv.c:41
+00000814 S ll_push_tx_fifo_handler	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_conn.c:34
+00000818 S mesh_adv_txrx_self_en	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:2570
+0000081a S mesh_tx_with_random_delay_ms	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:310
+0000081c S misc_flag	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:428
+00000820 S ota_program_offset	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/ext_driver/ext_pm.c:96
+00000824 S pm_tim_recover	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/ext_driver/ext_pm.c:85
+00000828 s prov_oob_output_auth	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:1178
+0000082c S proxy_para_len	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:59
+00000830 S proxy_sar	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_proxy.c:38
+00000838 S uart_dma_rev_size.lto_priv.287
+00000840 S uart_dma_rx_chn.lto_priv.281
+00000842 S use_mesh_adv_fifo_fn2lpn	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:103
+00000844 b VC_node_info	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/gw_node_info.c:36
+00000858 b blt_buff_att_tx	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/l2cap/l2cap.c:44
+00000958 b blt_buff_ll_rx	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/l2cap/l2cap.c:43
+00000a58 b blt_buff_prepare_write	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/attr/att.c:46
+00000b08 D __global_pointer$
+00000b58 b fn_offer	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_fn.c:935
+00000b64 b fn_update	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_fn.c:933
+00000b70 b gateway_seg_buf	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:2970
+00000d10 b gw_node_info	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/gw_node_info.c:37
+000010f8 b ivi_beacon_key	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app.c:600
+00001108 b mesh_fri_cache_fifo	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_fn.c:930
+00001120 b mesh_fri_cache_fifo_b	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_fn.c:929
+00001240 b slave_status_record	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_access_layer.c:51
+00001400 A __STACK_INIT_SIZE__
+00001560 B VC_node_cps	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/gw_node_info.c:38
+000016e0 b app_acl_rxfifo	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_buffer.c:34
+00001ae0 b app_acl_txfifo	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_buffer.c:35
+00002110 B beacon_send	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:313
+00002120 b dev_auth	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:1027
+00002140 B fast_prov	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/fast_provision_model.c:40
+00002180 B fast_prov_mac_buf	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/fast_provision_model.c:208
+000022c0 B fn_ctl_rsp_delay	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_fn.c:937
+000022dc B fri_ship_proc_fn	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_fn.c:939
+0000231c b hci_rx_fifo_b	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:231
+0000245c B key_refresh_cfgcl_proc	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:5224
+000024a0 B key_str	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:431
+00002508 B light_res_sw	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/light.c:117
+00002604 b mesh_adv_fifo_fn2lpn_b	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_fn.c:941
+00002694 b mesh_cmd_ut_rx_unseg_debug	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:107
+000026a4 B mesh_tid	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:113
+000026d8 b prov_link_uuid	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:54
+000026e8 b rx_seg_reject_cache	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:2073
+00002788 b scan_pri_chn_rx_fifo	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_buffer.c:39
+00002b88 B slave_rsp_buf	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_access_layer.c:50
+000037b8 b blc_tlkEvent_data	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:53
+000037c8 b bls_timing	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:84
+000037d8 B bltMac	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:44
+000037e4 B bltPm	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_pm.c:46
+00003814 b blt_buff_conn	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:2403
+0000382c B blt_event_func	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:101
+0000387c B blt_rxfifo	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:58
+0000388c B blt_txfifo	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:57
+0000389c B bltc	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:63
+00003904 b blttcon	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_conn.c:32
+0000395c b enc_ltk	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:738
+0000396c b ll_resolvingList_tbl	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_resolvlist.c:665
+000039a0 b ll_whiteList_tbl	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_whitelist.c:32
+000039c4 B para_upReq	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/l2cap/l2cap.c:51
+000039d0 b pmcd	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/pm.c:422
+000039fc B smpOwnParingConfirm	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/smp/smp.c:84
+00003a0c B smpOwnRand_const	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/smp/smp.c:78
+00003a1c B adv_rx_buff	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_adv.c:47
+00003a5c B blc_cyrpt_para	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:174
+00003a84 B blotaSvr	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/service/ota/ota_server.c:39
+00003adc B bltData	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:46
+00003af0 B bltParam	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:45
+00003b1c B blt_conn_phy	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_conn_phy.c:41
+00003b28 B blta	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_adv.c:44
+00003b40 B blts	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_scan_ext.c:43
+00003b58 b cache_buf	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:1354
+00004000 A __FW_RAMCODE_SIZE_MAX
+00004008 B cmd_bear_seg_nw_head_buf	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:124
+00004028 B fn_other_par	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_fn.c:936
+00004054 B fn_req	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_fn.c:934
+00004068 b hci_tx_fifo_b	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:221
+00004468 B light_res_sw_save	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/light.c:116
+00004500 b mesh_adv_cmd_fifo_b	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:140
+00004620 B mesh_cmd_ut_rx_seg_union	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:108
+00004840 B mesh_cmd_ut_tx_seg_union	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:106
+00004ab8 B mesh_fri_key_fn	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:108
+00004b3c B mesh_key	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:103
+00004ed4 B mesh_rx_seg_par	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:123
+00004ef8 B mesh_tx_reliable	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:2372
+000050e8 B mesh_tx_seg_par	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:122
+00005140 B model_sig_cfg_c	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:39
+00005190 B model_sig_cfg_s	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:37
+00005210 B model_sig_g_onoff_level	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/generic_model.c:70
+000052b0 B model_sig_g_power_onoff	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/generic_model.c:71
+00005350 B model_sig_health	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_health.c:35
+00005414 B model_sig_light_ctl	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/lighting_model.c:51
+00005464 B model_sig_light_hsl	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/lighting_model_HSL.c:39
+000054b4 B model_sig_lightness	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/lighting_model.c:49
+00005504 B model_sig_scene	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/scene.c:42
+00005554 B model_sig_sensor	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/sensors_model.c:35
+000055f4 B model_sig_time_schedule	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/time_model.c:280
+00005694 B model_vd_light	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/vendor_model.c:52
+000056e4 B para_pro	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:55
+00005734 B pkt_adv	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_adv.c:61
+00005760 B prov_oob	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:76
+0000577c B prov_para	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:47
+000057dc B provision_mag	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:52
+0000584c B proxy_mag	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_proxy.c:37
+00005870 B proxy_para_buf	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:58
+00005970 B smp_param_own	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/smp/smp.c:133
+000059b8 B smp_param_peer	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/smp/smp.c:132
+00005a08 B tbl_bondDevice	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/smp/smp_storage.c:81
+00005a78 B _BSS_VMA_END
+00005a78 T _RAMCODE_VMA_START	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:973
+00005a78 T adv_filter_proc	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:902
+00005b20 T delay_ms	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/stimer.c:43
+00005b48 T delay_us	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/stimer.c:31
+00005b68 T flash_send_addr.lto_priv.270	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/flash.c:104
+00005bac T flash_send_cmd	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/flash.c:90
+00005bf8 t flash_mspi_read_ram	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/flash.c:144
+00005d74 T flash_wait_done.lto_priv.271	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/flash.c:117
+00005dbc T clock_set_32k_tick	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/clock.c:204
+00005e1c T clock_get_32k_tick	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/clock.c:242
+00005e4c T analog_write_reg8	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/analog.c:124
+00005e88 T analog_read_reg8	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/analog.c:106
+00005ecc T clock_cal_24m_rc	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/clock.c:162
+00005f48 T entry_irq63	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:710
+00005f90 T entry_irq62	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:701
+00005fd8 T entry_irq61	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:692
+00006020 T entry_irq60	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:683
+00006068 T entry_irq59	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:674
+000060b0 T entry_irq58	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:665
+000060f8 T entry_irq57	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:656
+00006140 T entry_irq56	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:647
+00006188 T entry_irq55	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:638
+000061d0 T entry_irq54	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:629
+00006218 T entry_irq53	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:620
+00006260 T entry_irq52	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:611
+000062a8 T entry_irq51	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:602
+000062f0 T entry_irq50	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:593
+00006338 T entry_irq49	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:584
+0000633c T entry_irq48	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:578
+00006340 T entry_irq47	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:572
+00006344 T entry_irq46	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:565
+0000638c T entry_irq45	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:556
+00006390 T entry_irq44	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:551
+000063d8 T entry_irq43	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:541
+00006420 T entry_irq42	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:532
+00006468 T entry_irq41	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:523
+0000646c T entry_irq40	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:518
+00006470 T entry_irq39	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:513
+00006474 T entry_irq38	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:508
+00006478 T entry_irq37	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:501
+000064c0 T entry_irq36	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:492
+00006508 T entry_irq35	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:483
+00006550 T entry_irq34	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:474
+00006598 T entry_irq33	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:465
+000065e0 T entry_irq32	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:455
+00006628 T entry_irq31	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:446
+0000666c T entry_irq30	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:437
+000066b0 T entry_irq29	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:428
+000066f4 T entry_irq28	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:417
+00006738 T entry_irq27	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:407
+0000677c T entry_irq26	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:396
+000067c0 T entry_irq25	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:386
+00006804 T entry_irq24	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:376
+00006848 T entry_irq23	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:365
+0000688c T entry_irq22	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:354
+000068d0 T entry_irq21	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:343
+00006914 T entry_irq20	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:333
+00006958 T entry_irq19	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:322
+00006a2c T entry_irq18	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:310
+00006b00 T entry_irq17	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:298
+00006b44 T entry_irq16	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:288
+00006b88 T entry_irq15	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:276
+00006c5c T entry_irq14	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:266
+00006ca0 T entry_irq13	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:255
+00006ce4 T entry_irq12	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:245
+00006d28 T entry_irq11	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:235
+00006d6c T entry_irq10	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:225
+00006db0 T entry_irq9	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:214
+00006df4 T entry_irq8	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:204
+00006e38 T entry_irq7	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:194
+00006e7c T entry_irq6	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:183
+00006ec0 T entry_irq5	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:173
+00006f04 T entry_irq4	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:162
+00006f48 T entry_irq3	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:152
+00006f8c T entry_irq2	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:141
+00006fd0 T entry_irq1	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:131
+000070a4 T trap_entry	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/plic_isr.c:53
+000070f4 t task_suspend_exit	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/chip_adapt_layer/al.c:466
+000070fc t blc_ll_procScanPkt_mesh	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/chip_adapt_layer/al.c:454
+00007118 t irq_uart_handle_fifo	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/chip_adapt_layer/al.c:749
+0000720c T irq_handler	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/main.c:72
+00007210 T irq_uart_handle	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/main.c:40
+00007214 T except_handler	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/chip_adapt_layer/al.c:646
+00007268 T gpio_set_func	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/chip_adapt_layer/al.c:46
+000072a4 t rf_set_rxmode	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/rf.c:1297
+000072e4 t pm_tim_recover_32k_rc	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/pm_32k_rc.c:390
+0000731c t pm_get_32k_rc_calib	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/pm.c:465
+00007358 t pm_update_32k_rc_sleep_tick	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/pm.c:434
+000073a4 t rf_set_ble_channel	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/ext_driver/ext_rf.c:291
+000074dc t rf_start_fsm	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/ext_driver/ext_rf.c:227
+0000753c t ble_rx_dma_config	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/ext_driver/ext_rf.c:99
+00007558 t ble_tx_dma_config	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/ext_driver/ext_rf.c:76
+00007574 t ble_rf_set_tx_dma	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/ext_driver/ext_rf.c:62
+000075bc t ble_rf_set_rx_dma	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/ext_driver/ext_rf.c:81
+00007604 T blt_setScan_enter_manaul_rx	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_scan_ext.c:233
+000076d4 T irq_scan_rx_primary_channel	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_scan_ext.c:132
+000077e4 t blt_ll_searchAddr_in_WhiteList	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_resolvlist.c:783
+0000785c t blt_terminate_pending_proc	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:2032
+000078e0 t bls_ll_setNewConnection_timing	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:1736
+00007978 t blt_brx_timing_update	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:1651
+00007aa4 t blt_brx_timing_update_init	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:1632
+00007ae0 t blt_set_fsmTimeout_intLevel	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:1597
+00007b4c t blc_calc_remapping_table	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_conn_csa.c:124
+00007b90 t blt_ll_channelTable_calc	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_conn.c:264
+00007c34 t blt_ll_start_common	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_conn.c:204
+00007cc0 T bls_ll_setAdvEnable	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_adv.c:257
+00007d84 t blt_terminate_proc	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:2081
+00007e10 t irq_ll_system_timer	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:812
+00007e30 t irq_blc_ll_rx	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:656
+00008050 T blt_event_callback_func	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:170
+00008068 t rf_drv_ble_init	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/ext_driver/ext_rf.c:104
+00008170 t smp_quickResolvPrivateAddr	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_whitelist.c:105
+00008208 t blt_ll_searchAddr_in_ResolvingList	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_resolvlist.c:794
+00008274 t blt_ll_getRealTxFifoNumber	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:1328
+000082cc T smemcpy	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/ble.c:44
+000082e4 t connUpdate_mapUpdate_proc	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:1967
+000083f0 t blt_brx_post	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:2226
+00008548 t blt_ll_channel_conn_update	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:846
+000086e4 t bls_ll_procUpdateReq	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:2448
+00008728 T irq_blc_slave_rx_data	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:2466
+000088e0 T irq_blc_slave_tx	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:2413
+00008944 t blt_push_fifo_hw	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:554
+00008a24 t blt_brx_start	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:2149
+00008b3c T irq_slave_system_timer	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:2620
+00008c78 t blt_ll_connect_common	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_conn.c:156
+00008d6c T trng_rand	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/trng.c:95
+00008db0 T rf_set_power_level_index	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/rf.c:1443
+00008e20 T pm_wait_bbpll_done	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/pm.c:188
+00008ee4 t pm_sleep_start	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/pm.c:254
+00009094 t cpu_sleep_wakeup_32k_rc_ram	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/pm_32k_rc.c:77
+00009528 T plic_exit_critical_sec	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/plic.c:60
+00009564 T plic_enter_critical_sec	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/plic.c:39
+000095a8 T start_reboot	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/ext_driver/ext_pm.c:235
+00009600 T cpu_stall_WakeUp_By_RF_SystemTick	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/ext_driver/ext_misc.c:140
+00009694 T ll_searchAddr_in_WhiteList_and_ResolvingList	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_resolvlist.c:807
+000096c4 T blc_ll_initBasicMCU	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:1345
+00009714 T blc_ll_getTxFifoNumber	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:1299
+00009784 t blt_ota_server_main_loop	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/service/ota/ota_server.c:996
+000097a4 T blt_sdk_main_loop	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:978
+00009b8c T irq_blt_sdk_handler	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:825
+00009cf4 T main	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/main.c:149
+00009f5c T uart1_irq_handler	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/main.c:115
+00009f60 T uart0_irq_handler	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/main.c:105
+00009f64 T stimer_irq_handler	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/main.c:95
+00009f68 T rf_irq_handler	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/main.c:84
+00009f6c t smemset.constprop.188	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/ble.c:35
+00009f7c T clock_init.constprop.254	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/clock.c:281
+0000a0c4 T flash_mspi_write_ram.constprop.252	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/flash.c:208
+0000a1ac T blt_send_adv2scan_mode.constprop.233	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:2580
+0000a26c T aes_ccmBaseTran.isra.0.constprop.189
+0000a418 T aes_ccmAuthTran.constprop.187	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../algorithm/aes_ccm/aes_ccm.c:163
+0000a5d0 T aes_ll_ccm_decryption.constprop.185	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../algorithm/aes_ccm/aes_ccm.c:383
+0000a6a4 T sys_init.constprop.11	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/ext_driver/ext_pm.c:329
+0000a8d8 T bls_ll_procRxPacket.constprop.9	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_adv.c:706
+0000ab74 T blt_reset_conn_phy_param.constprop.8	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/phy/phy.c:252
+0000ab8c T _RAMCODE_VMA_END
+0000ab90 D _NO_RETENTION_DATA_VMA_START
+0000ab90 D mesh_adv_fifo_relay	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:142
+0000ab9c D _NO_RETENTION_DATA_VMA_END
+0000aba0 B _NO_RETENTION_BSS_VMA_START
+0000aba0 b prov_net_key	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:959
+0000abb0 B pro_dat	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:958
+0000abd8 B pro_auth	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:957
+0000abf8 B g_pm_status_info	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/pm.c:44
+0000abfc b mesh_adv_fifo_relay_b	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:142
+0000ad3c B _NO_RETENTION_BSS_VMA_END
+00020000 A _STACK_TOP
+00021692 A BIN_SIZE
+00080000 D _DLM_BSS_VMA_END
+00080000 D _DLM_BSS_VMA_START
+00080000 D _DLM_DATA_VMA_END
+00080000 B _DLM_DATA_VMA_START
+00080000 d const_sdk_version	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/sdk_version.c:38
+00080028 D _end
+00100000 A FLASH_SIZE
+20000000 T BIN_BEGIN	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:49
+20000000 A NDS_SAG_LMA_FLASH
+20000000 W _RELAX_END_	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:49
+20000000 T _RESET_ENTRY	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:49
+20000028 t _START	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:81
+20000030 t _SWS_USB_DIS	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:89
+2000008e t _RETENTION_RESET_INIT	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:141
+200000a6 t _RETENTION_RESET_BEGIN	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:145
+200000b8 t _GLOBAL_VECTORS_DATA_INIT	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:155
+200000d0 t _GLOBAL_VECTORS_DATA_INIT_BEGIN	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:159
+200000e2 t _RETENTION_DATA_INIT	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:169
+200000f6 t _RETENTION_DATA_INIT_BEGIN	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:173
+20000108 t _RAMCODE_INIT	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:183
+20000120 t _RAMCODE_INIT_BEGIN	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:187
+20000132 t _DATA_INIT	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:197
+20000146 t _DATA_INIT_BEGIN	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:201
+20000158 t _ZERO_BSS	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:212
+2000016c t _ZERO_BSS_BEGIN	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:216
+20000178 t _NO_RET_DATA_INIT	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:224
+20000190 t _NO_RET_DATA_INIT_BEGIN	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:228
+200001a2 t _NO_RET_BSS_INIT	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:237
+200001b6 t _NO_RET_BSS_BEGIN	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:241
+200001c2 t _DLM_DATA_INIT	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:249
+200001da t _DLM_DATA_INIT_BEGIN	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:253
+200001ec t _DLM_BSS_INIT	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:262
+20000200 t _DLM_BSS_BEGIN	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:266
+2000020c t _ZERO_AES	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:273
+20000220 t _ZERO_AES_BEGIN	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:277
+2000022c t _FILL_STK	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:285
+20000244 t _FILL_STK_BEGIN	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:290
+20000250 t _MAIN_FUNC	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:297
+20000266 t _END	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../boot/B91/cstartup_B91.S:308
+20000270 A _RETENTION_RESET_LMA_START
+20000410 A _GLOBAL_VECTORS_DATA_LMA_START
+20000518 A _RETENTION_DATA_LMA_START
+20000520 A _DATA_LMA_START
+200007c8 A _RAMCODE_LMA_START
+200058e0 T flash_page_program	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/flash.c:393
+20005938 T flash_dread	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/flash.c:315
+20005964 T flash_erase_sector	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/flash.c:266
+20005994 t mesh_cmd_sig_cfg_cps_status	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:1511
+2000599c T mesh_cmd_sig_health_fault_sts	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_health.c:77
+200059a4 t mesh_cmd_sig_light_sat_status
+200059ac t mesh_cmd_sig_light_hue_status
+200059b4 t mesh_cmd_sig_light_hsl_range_status
+200059bc t mesh_cmd_sig_light_hsl_def_status
+200059c4 t mesh_cmd_sig_light_hsl_target_status
+200059cc t mesh_cmd_sig_light_hsl_status
+200059d4 t mesh_cmd_sig_light_ctl_temp_status
+200059dc t mesh_cmd_sig_light_ctl_temp_range_status
+200059e4 t mesh_cmd_sig_light_ctl_def_status
+200059ec t mesh_cmd_sig_light_ctl_status
+200059f4 t mesh_cmd_sig_lightness_range_status
+200059fc t mesh_cmd_sig_lightness_def_status
+20005a04 t mesh_cmd_sig_lightness_linear_status
+20005a0c t mesh_cmd_sig_lightness_last_status
+20005a14 t mesh_cmd_sig_lightness_status
+20005a1c t Hue_2_RGB	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/light.c:504
+20005b40 t get_gw_node_info_idx	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/gw_node_info.c:79
+20005b84 t is_cmd_with_tid	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/generic_model.c:1458
+20005d24 t mesh_cmd_sig_g_battery_status
+20005d2c t mesh_cmd_sig_g_on_powerup_status
+20005d34 t mesh_cmd_sig_def_trans_time_status
+20005d3c t mesh_cmd_sig_g_level_status
+20005d44 t mesh_cmd_sig_g_onoff_status
+20005d4c t cb_vd_mesh_provison_data_sts
+20005d54 t cb_vd_mesh_addr_sts
+20005d5c t cb_vd_mesh_reset_network	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/fast_provision_model.c:546
+20005d80 t cb_vd_mesh_provision_complete
+20005d84 t mesh_cmd_sig_cfg_nw_transmit_status
+20005d8c t mesh_cmd_sig_cfg_relay_status
+20005d94 t mesh_cmd_sig_cfg_gatt_proxy_status
+20005d9c t mesh_cmd_sig_cfg_friend_status
+20005da4 t mesh_cmd_sig_cfg_def_ttl_status
+20005dac t mesh_cmd_sig_cfg_sec_nw_bc_status
+20005db4 t mesh_cmd_sig_vendor_model_sub_list
+20005dbc t mesh_cmd_sig_sig_model_sub_list
+20005dc4 t mesh_cmd_sig_cfg_model_sub_status
+20005dcc t mesh_cmd_sig_cfg_model_pub_status
+20005dd4 t mesh_cmd_sig_cfg_node_reset_status
+20005ddc t mesh_cmd_sig_cfg_bind_status	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:1188
+20005de4 t mesh_cmd_sig_cfg_vd_model_app_list
+20005dec t mesh_cmd_sig_cfg_sig_model_app_list
+20005df4 t mesh_cmd_sig_cfg_appkey_list
+20005dfc t mesh_cmd_sig_cfg_appkey_status	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:921
+20005e04 t mesh_cmd_sig_cfg_netkey_list
+20005e0c t mesh_cmd_sig_cfg_netkey_status	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:880
+20005e14 t mesh_cmd_sig_cfg_lpn_poll_timeout_status
+20005e1c t mesh_cmd_sig_cfg_node_identity_status
+20005e24 t mesh_cmd_sig_cfg_key_phase_status	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:773
+20005e2c T proxy_out_ccc_cb	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_proxy.c:91
+20005e5c T pb_gatt_provision_out_ccc_cb	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_proxy.c:60
+20005e78 t mesh_cmd_sig_heartbeat_sub_status
+20005e80 t mesh_cmd_sig_heart_pub_status
+20005e88 t mesh_cmd_sig_attention_status
+20005e90 t mesh_cmd_sig_period_status	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_health.c:182
+20005ea0 t find_ele_support_model_and_match_dst	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:1058
+20005fe4 t mesh_friend_ship_clear_FN	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_fn.c:515
+20006064 t mesh_pub_par_check	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:1384
+200060e0 t cb_vd_mesh_set_provision_data	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/fast_provision_model.c:613
+20006144 t set_provisionee_para	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:974
+200061c0 t mesh_sec_get_nid_ek_pk_friend	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:2024
+20006240 t mesh_save_pub_and_refresh_tick	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:1230
+200062e8 t net_key_set2	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:1913
+2000652c t mesh_cmd_sig_cfg_cps_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:1476
+20006564 t mesh_cmd_sig_cfg_appkey_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:933
+20006654 t mesh_cmd_sig_cfg_appkey_set	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:910
+200066b4 t mesh_cmd_sig_cfg_netkey_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:892
+20006754 t mesh_cmd_sig_cfg_lpn_poll_timeout_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:844
+20006808 t mesh_cmd_sig_cfg_nw_transmit_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:322
+20006820 t mesh_cmd_sig_cfg_relay_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:293
+20006838 t mesh_cmd_sig_cfg_gatt_proxy_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:242
+20006850 t mesh_cmd_sig_cfg_friend_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:200
+20006868 t mesh_cmd_sig_cfg_def_ttl_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:184
+20006880 t mesh_cmd_sig_cfg_sec_nw_bc_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:167
+20006898 t mesh_cmd_sig_heartbeat_sub_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_heartbeat.c:114
+20006900 t mesh_cmd_sig_heartbeat_pub_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_heartbeat.c:54
+2000698c t mesh_add_pkt_model_pub	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:1266
+20006a1c t mesh_cmd_sig_cfg_model_pub_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:1503
+20006b30 t mesh_add_pkt_model_sub_list	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:676
+20006c0c t mesh_cmd_sig_vendor_model_sub_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:1668
+20006cb4 t mesh_cmd_sig_sig_model_sub_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:1636
+20006d5c t ecc_rng	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:474
+20006da4 t is_cmd_with_tid_check_and_set	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_access_layer.c:548
+20006e14 t mesh_cmd_sig_heartbeat_sub_set	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_heartbeat.c:131
+20006f3c t mesh_cmd_sig_heartbeat_pub_set	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_heartbeat.c:86
+20006fe8 T app_l2cap_packet_receive	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:2073
+2000831c T entry_ota_mode	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:1322
+2000839c t cb_vd_mesh_provision_confirm	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/fast_provision_model.c:628
+200083d8 t cb_vd_mesh_get_addr_st_rsp	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/fast_provision_model.c:562
+20008428 t cb_vd_mesh_set_addr	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/fast_provision_model.c:593
+2000849c t cb_vd_mesh_get_addr	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/fast_provision_model.c:568
+20008548 t mesh_cmd_sig_attention_set	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_health.c:198
+2000857c t mesh_cmd_sig_attention_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_health.c:191
+2000859c t mesh_cmd_sig_period_set	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_health.c:163
+200085d8 t mesh_cmd_sig_period_set_unrel	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_health.c:176
+200085dc t mesh_cmd_sig_period_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_health.c:155
+200085fc t mesh_cmd_sig_fault_test	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_health.c:134
+20008660 t mesh_cmd_sig_fault_test_unrel	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_health.c:148
+20008664 t mesh_cmd_sig_fault_clr	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_health.c:98
+200086d8 t mesh_cmd_sig_fault_clr_unrel	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_health.c:117
+200086dc t mesh_cmd_sig_fault_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_health.c:89
+20008700 t mesh_cmd_sig_health_cur_sts	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_health.c:66
+20008730 T mesh_health_cur_sts_publish	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_health.c:47
+20008768 t mesh_cmd_sig_cfg_model_sub_set	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:1571
+20008a0c t mesh_pub_set	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:1451
+20008b68 t mesh_cmd_sig_cfg_model_pub_set_vr	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:1495
+20008b88 t mesh_cmd_sig_cfg_model_pub_set	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:1487
+20008ba8 t mesh_cmd_sig_cfg_nw_transmit_set	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:327
+20008be4 t mesh_cmd_sig_cfg_relay_set	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:298
+20008c68 t mesh_cmd_sig_cfg_friend_set	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:205
+20008cf4 t mesh_cmd_sig_cfg_def_ttl_set	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:189
+20008d3c t mesh_cmd_sig_cfg_sec_nw_bc_set	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:172
+20008d7c t mesh_cmd_sig_cfg_gatt_proxy_set	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:247
+20008e04 T pb_gatt_Write	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_proxy.c:68
+20008e44 T is_actived_factory_test_mode	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:2585
+20008e58 t mesh_cmd_sig_cfg_node_reset	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:1201
+20008ebc T mesh_tx_cmd_unreliable	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:2467
+20008f04 T mesh_seg_tx_set_one_pkt_completed	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:2184
+20008f34 T is_mesh_net_key_exist	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:1874
+20008f6c t mesh_cmd_sig_cfg_node_identity_set	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:804
+20009024 t mesh_cmd_sig_cfg_node_identity_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:796
+2000907c t mesh_cmd_sig_cfg_key_phase_set	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:753
+2000913c t mesh_cmd_sig_cfg_key_phase_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:745
+20009194 T is_use_device_key	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:1754
+200091c8 t mesh_cmd_sig_cfg_model_app_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:953
+20009380 T mesh_cfg_cmd_dev_key_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:1656
+2000939c T mesh_calculate_ivi	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:1564
+200093f0 T is_in_mesh_friend_st_fn.part.4
+20009414 T friend_cmd_send_fn.part.2
+20009458 T mesh_feature_set_fn	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_fn.c:945
+200094d0 T mesh_friend_ship_proc_FN	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_fn.c:729
+20009b8c T friend_cmd_send_update	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_fn.c:387
+20009c14 T is_unicast_friend_msg_to_lpn	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_fn.c:257
+20009c9c T mesh_mac_match_friend	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_fn.c:213
+20009d2c T fn_quick_send_adv	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_fn.c:183
+20009db4 T mesh_tx_cmd_add_packet_fn2lpn	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_fn.c:411
+20009de4 T mesh_scan_rsp_init	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:2190
+20009e78 T pubkey_create_proc	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:505
+20009fb4 T rf_link_slave_read_status_start	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_access_layer.c:64
+20009fe0 T light_dim_set_hw.part.3
+2000a054 T light_dim_refresh	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/light.c:594
+2000a3fc T get_VC_node_info	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/gw_node_info.c:270
+2000a440 T mesh_search_model_id_by_op	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/generic_model.c:1409
+2000a58c T is_support_op	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_access_layer.c:205
+2000a644 T mesh_appkey_bind	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:1083
+2000a81c t ev_handle_traversal_cps_ll	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:988
+2000a9b8 T ev_handle_traversal_cps	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:1033
+2000aaa0 t mesh_cmd_sig_cfg_bind	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:1149
+2000ab5c T delete_data_from_list	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_proxy.c:301
+2000abcc T add_data_to_list	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_proxy.c:284
+2000ac34 T proxy_gatt_Write	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_proxy.c:111
+2000ae34 T is_valid_adv_with_proxy_filter	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_proxy.c:235
+2000ae98 T mesh_cfg_keybind_end_event.part.30
+2000aed8 T get_provision_state	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:2668
+2000af10 T is_provision_working	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:2701
+2000af28 T is_provision_success	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:2692
+2000af40 T mesh_fast_prov_val_init	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/fast_provision_model.c:345
+2000afa8 T mesh_revert_network	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/fast_provision_model.c:97
+2000b0d0 T get_mesh_pro_str_len	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:891
+2000b138 T send_comfirm_no_pubkey_cmd	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:1302
+2000b204 T notify_pkts	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:1075
+2000b388 t mesh_tx_sec_nw_beacon	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_beacon.c:212
+2000b464 T mesh_net_key_set	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:1943
+2000b64c T factory_test_key_bind	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:2616
+2000b6d8 t mesh_cmd_sig_cfg_netkey_set	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:869
+2000b724 T mesh_send_provison_data	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:721
+2000b998 T mesh_adv_prov_capa_rcv	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:2939
+2000b998 T mesh_adv_prov_comfirm_rsp	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:1927
+2000b9f4 T mesh_terminate_provision_link_reset	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:2166
+2000ba9c T send_comfirm_no_pubkey_cmd_with_ack	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:1317
+2000bb74 T mesh_provision_para_reset	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:454
+2000bbb8 T mesh_node_prov_event_callback.part.5
+2000bbe0 T mesh_ble_connect_cb	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:1556
+2000bc08 T set_provision_stop_flag_act.part.29
+2000bc34 T cal_heartbeat_count_log.part.2
+2000bc5c T heartbeat_cmd_send_conf	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_heartbeat.c:217
+2000bcb4 T mesh_tx_sec_nw_beacon_all_net	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_beacon.c:258
+2000bd20 T uart_is_prime.lto_priv.295	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/uart.c:692
+2000bd60 t blc_readFlashSize_autoConfigCustomFlashSector	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/blt_common.c:46
+2000be38 T mesh_global_var_init	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:2321
+2000bf4c t clear_gw_node_info	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/gw_node_info.c:184
+2000bfc0 t VC_cmd_clear_all_node_info	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/gw_node_info.c:243
+2000c004 T mesh_rsp_handle	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_access_layer.c:121
+2000c240 T mesh_rc_data_layer_access2	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_access_layer.c:263
+2000c810 T restore_node_info_table	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/gw_node_info.c:102
+2000c910 t rebuild_node_info_sector	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/gw_node_info.c:136
+2000ca98 T VC_node_dev_key_save	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/gw_node_info.c:348
+2000cc2c T mesh_tx_reliable_finish	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:2302
+2000ce8c T factory_reset	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/factory_reset.c:437
+2000cf0c T write_reset_cnt	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/factory_reset.c:242
+2000cf60 T increase_reset_cnt	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/factory_reset.c:302
+2000cfcc T light_ev_with_sleep	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/light.c:1576
+2000d084 T show_ota_result	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/light.c:1598
+2000d0ac T aes_encrypt	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/aes.c:106
+2000d168 T my_fifo_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/utility.c:160
+2000d1c4 T blc_hci_tx_to_uart	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:3318
+2000d2dc T app_advertise_prepare_handler	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:1922
+2000d488 T is_busy_mesh_tx_cmd	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:2507
+2000d4d0 T mesh_tx_cmd	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:2572
+2000d718 T blc_rx_from_uart	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:3291
+2000e02c T SendOpParaDebug	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:2659
+2000e098 T cfg_cmd_ak_bind	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/cmd_interface.c:407
+2000e100 T vli_mmod_fast_secp256r1.lto_priv.277	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mi_api/libs/third_party/micro-ecc/curve-specific.inc:883
+2000e470 t vli_modInv_update	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mi_api/libs/third_party/micro-ecc/uECC.c:684
+2000e508 t uECC_vli_modSub	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mi_api/libs/third_party/micro-ecc/uECC.c:557
+2000e574 t uECC_vli_modAdd	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mi_api/libs/third_party/micro-ecc/uECC.c:543
+2000e640 t uECC_vli_mult	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mi_api/libs/third_party/micro-ecc/uECC.c:413
+2000e784 t XYcZ_addC	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mi_api/libs/third_party/micro-ecc/uECC.c:827
+2000e954 t XYcZ_add	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mi_api/libs/third_party/micro-ecc/uECC.c:796
+2000eab4 t apply_z	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mi_api/libs/third_party/micro-ecc/uECC.c:756
+2000eb38 T x_side_default.lto_priv.276	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mi_api/libs/third_party/micro-ecc/curve-specific.inc:98
+2000ebc8 T double_jacobian_default.lto_priv.275	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mi_api/libs/third_party/micro-ecc/curve-specific.inc:50
+2000ee40 T mesh_df_path_monitoring	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:5672
+2000ee40 t otaRead	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:5672
+2000ee48 T cb_vd_group_g_status
+2000ee50 T mesh_cmd_sig_time_role_status
+2000ee58 T mesh_cmd_sig_time_TAI_UTC_delta_status
+2000ee60 T mesh_cmd_sig_time_zone_status
+2000ee68 T mesh_cmd_sig_time_status
+2000ee70 T mesh_cmd_sig_sensor_series_status
+2000ee78 T mesh_cmd_sig_sensor_column_status
+2000ee80 T mesh_cmd_sig_sensor_setting_status
+2000ee88 T mesh_cmd_sig_sensor_settings_status
+2000ee90 T mesh_cmd_sig_sensor_cadence_status
+2000ee98 T mesh_cmd_sig_sensor_status
+2000eea0 T mesh_cmd_sig_sensor_descript_status
+2000eea8 T mesh_cmd_sig_schd_action_status
+2000eeb0 T mesh_cmd_sig_scheduler_status
+2000eeb8 T mesh_cmd_sig_scene_reg_status
+2000eec0 T mesh_cmd_sig_scene_status
+2000eec8 t mesh_flash_write_check	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:3476
+2000ef48 T cb_vd_key_report	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/vendor_model.c:559
+2000f0a4 t mesh_par_write_with_check	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:3570
+2000f134 t mesh_par_retrieve	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:3431
+2000f24c T my_att_init	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:497
+2000f30c T gateway_common_cmd_rsp	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app.c:305
+2000f410 t gateway_upload_prov_rsp_cmd	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app.c:490
+2000f450 t gateway_upload_prov_cmd	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app.c:476
+2000f490 T gateway_upload_primary_info_get	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app.c:408
+2000f534 T fast_provision_upload_node_info	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app.c:380
+2000f574 T gateway_upload_keybind_event	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app.c:359
+2000f598 T uECC_valid_point	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mi_api/libs/third_party/micro-ecc/uECC.c:1126
+2000f6f4 T uECC_generate_random_int.lto_priv.279	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mi_api/libs/third_party/micro-ecc/uECC.c:988
+2000f854 T regularize_k.lto_priv.280	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mi_api/libs/third_party/micro-ecc/uECC.c:910
+2000f914 T EccPoint_mult.lto_priv.278	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mi_api/libs/third_party/micro-ecc/uECC.c:865
+2000fffc T mesh_provision_para_init	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/user_proc.c:229
+2001022c T is_iv_index_invalid	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/security_network_beacon.c:43
+2001024c T is_busy_reliable_cmd.part.16
+2001024c T is_busy_tx_seg.part.17	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:3114
+20010264 T mesh_cfg_cmd_dev_key_get.part.14
+200102ac T get_ak_arr_idx.part.11
+200102f0 T is_actived_factory_test_mode.part.10
+20010304 T mesh_adv_cmd_set	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:5158
+200103a0 T prov_random_proc	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:4949
+200103e0 T relay_adv_prepare_handler	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:4327
+200105d8 T mesh_proxy_adv2gatt	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:4260
+20010648 T mesh_model_store	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:4104
+200106d0 T mesh_common_store	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:3680
+200106d8 T mesh_par_store	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:3592
+20010890 t mesh_misc_store.part.22
+2001092c T mesh_misc_store	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:3754
+20010938 T mesh_iv_update_set_start_flag	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/security_network_beacon.c:370
+200109a0 T mesh_iv_idx_init	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/security_network_beacon.c:54
+20010a40 T mesh_iv_update_step_change	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/security_network_beacon.c:145
+20010ab4 T mesh_key_save	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:4006
+20010c4c t app_key_set2	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:2736
+20010cc4 T mesh_tx_cmd_rsp_cfg_model	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:3234
+20010d10 T mesh_tx_cmd_rsp	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:3196
+20010de0 T is_own_ele	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:3112
+20010df4 T app_event_handler_adv	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:5054
+20012d18 t app_event_handler	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app.c:107
+20012dfc T mesh_set_ele_adr_ll	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:3071
+20012e9c T mesh_provision_par_set	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:2987
+20013014 T main_loop	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app.c:848
+20014ba8 T get_nk_arr_idx_first_valid	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:2953
+20014bc8 T get_ak_arr_idx_first_valid	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:2940
+20014bf8 T app_key_del2	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:2748
+20014c30 T mesh_app_key_set	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:2765
+20014e24 T mesh_key_retrieve	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:4037
+20014fb0 T mesh_flash_retrieve	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:4115
+200150c4 T user_init	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app.c:900
+20015ae8 T appkey_bind_all	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:2661
+20015bbc t cpu_sleep_wakeup_32k_rc	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/pm_32k_rc.c:380
+20015bd8 T sha256_starts_wrap.lto_priv.262	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/hmac_telink.c:216
+20015c3c T sha224_clone_wrap.lto_priv.268	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/hmac_telink.c:204
+20015c50 T sha224_ctx_free.lto_priv.267	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/hmac_telink.c:198
+20015c68 t blt_ota_setResult	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/service/ota/ota_server.c:767
+20015cbc t blt_ota_server_terminate	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/service/ota/ota_server.c:842
+20015cfc t blt_ota_procTimeout	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/service/ota/ota_server.c:796
+20015d8c T blc_gap_peripheral_conn_complete_handler	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/gap/gap.c:38
+20015db4 t blc_hci_send_event	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/hci/hci.c:149
+20015dc8 t blt_ll_exchangeDataLength	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:493
+20015e6c T blt_slave_main_loop_post	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:2864
+2001600c t ota_save_data	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/service/ota/ota_server.c:308
+200160e0 t smp_write_flash_page	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/smp/smp_storage.c:151
+20016140 t bls_smp_param_deleteByIndex	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/smp/smp_storage.c:573
+200161c4 t bls_smp_param_saveBondingInfo.part.2
+20016314 T sha224_ctx_alloc.lto_priv.266	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/hmac_telink.c:187
+20016350 T sha224_update_wrap.lto_priv.263	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/hmac_telink.c:174
+20016360 T sha256_wrap.lto_priv.265	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/hmac_telink.c:221
+20016408 T sha224_finish_wrap.lto_priv.264	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/hmac_telink.c:181
+20016410 T sha224_process_wrap.lto_priv.269	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/hmac_telink.c:210
+20016418 t smp_erase_flash_sector	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/smp/smp_storage.c:122
+20016494 T endianness_swap_ut	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/mesh_crypto.c:935
+20016498 T endianness_swap	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/mesh_crypto.c:888
+200164f4 T endianness_swap_u32	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/mesh_crypto.c:858
+20016518 T mesh_nonce_set_application	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/mesh_crypto.c:815
+200165bc T mesh_sec_msg_dec_apl_ll	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/mesh_crypto.c:1080
+200167bc T mesh_sec_msg_obfuscation	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/mesh_crypto.c:267
+20016824 T mesh_ccmAuthTran	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/mesh_crypto.c:95
+2001699c T mesh_sec_msg_enc_ll	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/mesh_crypto.c:232
+20016a0c T tn_p256_dhkey	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/le_crypto.c:1478
+20016b60 T tn_aes_cmac	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/le_crypto.c:149
+20016ddc T mesh_sec_func_s1m	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/mesh_crypto.c:283
+20016e0c T mesh_sec_func_k2	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/mesh_crypto.c:378
+20016ee8 T mesh_sec_func_k1_beacon	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/mesh_crypto.c:337
+20016f40 T blt_leg_scan_mainloop_task	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_scan_ext.c:313
+20017070 t bls_ll_send_read_remote_feature_event.part.5
+200170d4 T bls_ll_pushTxFifo	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:412
+20017298 T blt_connect	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:1769
+200174d8 T cpu_wakeup_no_deepretn_back_init.lto_priv.272	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/ext_driver/ext_pm.c:258
+200176a8 T blt_send_adv	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_adv.c:944
+20017a84 T generateRandomNum	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/ext_driver/ext_misc.c:49
+20017acc T aes_ll_encryption	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../algorithm/aes_ccm/aes_ccm.c:72
+20017b3c T blt_ota_writeBootMark	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/service/ota/ota_server.c:284
+20017bb0 T blt_ota_reset	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/service/ota/ota_server.c:66
+20017bf4 t blt_ota_procOtaFinish	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/service/ota/ota_server.c:904
+20017c54 T blc_ota_initOtaServer_module	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/service/ota/ota_server.c:99
+20017cbc T crc16	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/service/ota/ota.c:40
+20017d00 T blc_smp_pushParingFailed	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/smp/smp.c:164
+20017d24 T blc_gap_send_event	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/gap/gap_event.c:50
+20017d2c T bls_smp_pairing_success.part.3
+20017e24 T blc_smp_procParingEnd	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/smp/smp_peripheral.c:142
+20017e4c T blc_gap_peripheral_conn_terminate_handler	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/gap/gap.c:66
+20017ea4 T att_Find_end_group	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/attr/att.c:175
+20017f30 T l2cap_att_search	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/attr/att.c:157
+20017fcc T bls_ll_terminateConnection	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:292
+20018038 T blt_slave_main_loop_data	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_slave.c:2846
+200185c0 T blc_l2cap_pushData_2_controller	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/l2cap/l2cap.c:313
+200187d4 T blc_gap_peripheral_mainloop	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/gap/gap.c:124
+20018c3c T blc_gatt_pushHandleValueNotify	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/attr/gatt.c:99
+20018cc8 t blt_ota_pushSchedulerIndication	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/service/ota/ota_server.c:943
+20018d0c t blt_ota_procOtaResultFeedback	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/service/ota/ota_server.c:861
+20018da8 t blt_ota_pushVersionRsp	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/service/ota/ota_server.c:819
+20018df4 t blt_proc_ota_server	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/service/ota/ota_server.c:961
+20018e64 T otaWrite	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/service/ota/ota_server.c:373
+200192f8 t get_sec_key_type	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:3241
+20019330 t add2cache	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:1654
+20019378 t mbedtls_md_hmac.constprop.150	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/hmac_telink.c:137
+200194cc t mesh_ivi_equal.constprop.109	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:1599
+20019510 t mesh_ivi_greater_or_equal.constprop.107	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:1585
+20019568 t pwm_kick_32k_pad.constprop.13	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/ext_driver/ext_pm.c:140
+200195d0 T swapX.constprop.259	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/utility.c:42
+200195ec T my_fifo_push.constprop.257	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../common/utility.c:130
+200196a8 T analog_read_reg32.constprop.255	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/analog.c:174
+200196ec T uart_receive_dma.constprop.238	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/uart.c:569
+2001979c T my_fifo_push_relay_ll.constprop.227	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:179
+2001985c T mesh_find_ele_resource_in_model.constprop.220	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/generic_model.c:1876
+2001991c T mesh_common_retrieve_and_store.constprop.219	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:3659
+20019980 T appkey_bind_filter.constprop.216	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:2638
+200199d4 T mesh_ccmBaseTran.constprop.215	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/mesh_crypto.c:176
+20019b1c T blc_att_setServerDataPendingTime_upon_ClientCmd.constprop.183	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/attr/att.c:1369
+20019b28 T pkt_pb_gatt_data.part.6.constprop.181
+20019c8c T iv_update_set_with_update_flag_ture.constprop.173	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/security_network_beacon.c:181
+20019cd8 T aes_ecb_encryption.constprop.172	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/chip_adapt_layer/al.c:56
+20019ce0 T mesh_sec_msg_dec_ll.constprop.158	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/mesh_crypto.c:246
+20019d80 T mesh_prov_oob_auth_data.constprop.155	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:1195
+20019e90 T mesh_sec_prov_confirmation_fun.constprop.147	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/config_model.c:60
+20019fa8 T mesh_sec_prov_salt_hmac.constprop.130	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/mesh_crypto.c:761
+2001a028 T erase_ecdh_sector_restore_info.constprop.125	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:383
+2001a088 T get_cache_buf_for_poll.constprop.102	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_fn.c:622
+2001a14c T is_exist_in_cache.constprop.92	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:1669
+2001a250 t mesh_sec_msg_dec_nw2	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/mesh_crypto.c:1318
+2001a3f0 T access_set_lum.constprop.64	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/lighting_model.c:1285
+2001a444 T blc_ota_setOtaProcessTimeout.constprop.63	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/service/ota/ota_server.c:208
+2001a458 T set_random_adv_delay.constprop.59	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:1663
+2001a4b4 T blc_gatt_requestServiceAccess.constprop.55	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/attr/gatt.c:61
+2001a514 T blt_smp_alg_c1.constprop.54	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/smp/smp_alg.c:59
+2001a5fc T bls_ota_clearNewFwDataArea.constprop.51	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/service/ota/ota_server.c:1027
+2001a6ac T crc32_half_cal.constprop.49	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/service/ota/ota.c:76
+2001a6d4 T bls_att_pushIndicateData.part.0.constprop.41
+2001a810 T blc_ota_setOtaDataPacketTimeout.constprop.30	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/service/ota/ota_server.c:222
+2001a824 T pwm_kick_32k_pad_times.constprop.12	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/ext_driver/ext_pm.c:171
+2001a89c T blt_ll_unknown_rsp.constprop.7	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll_conn/ll_conn.c:375
+2001a8cc T endianness_swap.part.1
+2001aa04 T rf_link_get_op_by_ac	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:2029
+2001aa24 T get_mesh_current_cache_num	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:1748
+2001aa48 T cache_init	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:1635
+2001aac8 t key_refresh_complete	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:3329
+2001abb8 T mesh_key_refresh_phase_handle	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:3352
+2001ac30 T mesh_rc_data_beacon_sec.constprop.106	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/security_network_beacon.c:340
+2001af30 T mesh_match_group_mac	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:1395
+2001b114 T my_fifo_push_adv	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:151
+2001b190 t mesh_fri_cmd2cache.constprop.207	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_fn.c:325
+2001b384 T mesh_friend_cache	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:2064
+2001b418 T mesh_tx_cmd_add_packet	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:459
+2001b45c T unprov_beacon_send.constprop.228	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_beacon.c:179
+2001b4f8 T mbedtls_internal_sha256_process	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/sha256_telink.c:256
+2001b700 T mbedtls_sha256_update_ret.part.1
+2001b7c4 T mbedtls_sha256_finish_ret	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/sha256_telink.c:385
+2001b97c T MD5Transform	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/mesh_md5.c:233
+2001c2b0 T MD5Update	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/mesh_md5.c:122
+2001c378 T cala_vir_adr_by_uuid	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/mesh_crypto.c:1609
+2001c3b8 T set_material_tx_cmd.constprop.195	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:2489
+2001c4fc T SendOpParaDebug_vendor.constprop.72	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_common.c:2669
+2001c568 T mesh_bulk_cmd	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:1509
+2001c6ac T crc8_rohc	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/mesh_crypto.c:1589
+2001c6f0 T mesh_send_multi_data.constprop.159	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:863
+2001c7a8 T mesh_provision_seg_check.constprop.117	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:3519
+2001c8f0 T mesh_sec_msg_dec_nw	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/mesh_crypto.c:1390
+2001cb38 T mesh_sec_msg_enc_nw_rf_buf	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/mesh_crypto.c:1205
+2001ccec t mesh_tx_cmd_layer_network	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:494
+2001d068 T mesh_add_seg_ack	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:1764
+2001d150 t mesh_seg_add_pkt	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:751
+2001d28c t mesh_tx_segment_handle.constprop.202	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:825
+2001d3d8 T mesh_tx_cmd2_access	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:1302
+2001d8a8 T mesh_tx_next_segment_pkt	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:1813
+2001d93c T mesh_rx_seg_ack_handle	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:1899
+2001d994 T rc_nw_ttl_check_and_re_encode.part.4.lto_priv.296
+2001da38 T mesh_tx_cmd_layer_upper_ctl	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:1162
+2001dd1c T send_filter_sts.constprop.111	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_proxy.c:313
+2001dd80 T mesh_tx_cmd_layer_upper_ctl_FN	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:1211
+2001dd90 T is_busy_tx_segment_or_reliable_flow	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:3287
+2001ddd0 T is_busy_segment_or_reliable_flow	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/sig_mesh/app_mesh.c:3297
+2001de08 T memcmp
+2001de58 T memcpy
+2001df52 T memset
+2001dffc T strlen
+2001e05c T __adddf3	/cygdrive/d/Jenkins/workspace/build-system-3/source-packages/gcc-7.4.0-riscv-bsp-v5_1_0-branch/libgcc/soft-fp/adddf3.c:35
+2001ea40 T __ledf2	/cygdrive/d/Jenkins/workspace/build-system-3/source-packages/gcc-7.4.0-riscv-bsp-v5_1_0-branch/libgcc/soft-fp/ledf2.c:35
+2001ea40 T __ltdf2	/cygdrive/d/Jenkins/workspace/build-system-3/source-packages/gcc-7.4.0-riscv-bsp-v5_1_0-branch/libgcc/soft-fp/ledf2.c:42
+2001eb04 T __muldf3	/cygdrive/d/Jenkins/workspace/build-system-3/source-packages/gcc-7.4.0-riscv-bsp-v5_1_0-branch/libgcc/soft-fp/muldf3.c:35
+2001f154 T __extendsfdf2	/cygdrive/d/Jenkins/workspace/build-system-3/source-packages/gcc-7.4.0-riscv-bsp-v5_1_0-branch/libgcc/soft-fp/extendsfdf2.c:37
+2001f49c r gen_method_legacy	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/smp/smp.c:140
+2001f500 r gen_method_sc	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/smp/smp.c:149
+2001f564 r light_res_hw	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/light.c:79
+2001f5c4 r mesh_cmd_sig_func	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/generic_model.c:862
+2002062c r mesh_cmd_vd_func	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/vendor_model.c:905
+2002075c r rgb_lumen_map	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/light.c:133
+20020998 R MODEL_ID_DEV_KEY	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:1743
+200209f8 r factory_reset_serials	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/factory_reset.c:221
+20020a28 r mesh_md_adr_map	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:3275
+20020b88 r mi_service_change_str	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:239
+20020b98 r my_Attributes	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:462
+2002103c r my_OtaServiceUUID	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:194
+2002104c r my_OtaUUID	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:195
+2002105c r my_fwRevision_value	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:4553
+2002106c r my_pb_gattInName	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:212
+20021078 r my_pb_gattOutName	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:207
+20021084 r my_proxy_out_Name	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:219
+20021090 r my_userdefine_UUID	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:232
+200210a0 r my_userdefine_service_UUID	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:228
+200210b0 r pub_key_with_oob	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:64
+20021100 r cmd_length_array	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/controller/ll/ll.c:110
+2002111c r const_Zero_Rb	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/le_crypto.c:101
+20021130 R curve_secp256r1.lto_priv.286
+200211f0 r rf_power_Level_list	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/rf.c:43
+20021274 r K	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/sha256_telink.c:202
+20021374 R MeshSigModelResource	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/generic_model.c:1555
+20021474 r att_access_err_enc	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/attr/gatt.c:45
+20021484 r att_access_err_no_enc	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/host/attr/gatt.c:38
+2002149c r mbedtls_sha256_info	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../proj_lib/mesh_crypto/hmac_telink.c:229
+200214cc R mesh_save_map	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:3335
+200215ec r CSWTCH.39
+200215f4 r const_prov_ivi	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/app_provison.c:960
+200215f8 r clientCharacterCfgUUID	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:50
+200215fa r mi_gerneric_service	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:235
+200215fc r mi_service_change_uuid	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:236
+20021600 r my_OtaName	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:198
+20021604 r my_PnPUUID	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:64
+20021608 r my_PnPtrs	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:88
+20021610 r my_appearanceUIID	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:73
+20021612 r my_characterUUID	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:60
+20021614 r my_devNameUUID	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:66
+20021616 r my_devServiceUUID	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:62
+20021618 r my_fwRevisionUUID	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/common/mesh_node.c:4550
+2002161a r my_gapServiceUUID	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:69
+2002161c r my_pb_gatt_in_UUID	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:210
+20021620 r my_pb_gatt_out_UUID	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:203
+20021622 r my_periConnParamUUID	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:74
+20021624 r my_primaryServiceUUID	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:58
+20021628 r my_proxy_in_Name	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:224
+20021630 r my_proxy_in_UUID	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:222
+20021634 r my_proxy_out_UUID	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:217
+20021638 r my_userderdefine	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:231
+2002163c r userdesc_UUID	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../vendor/mesh_provision/app_att.c:97
+20021640 r crc16_poly	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../stack/ble/service/ota/ota.c:37
+20021644 r rf_rx_dma_config	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/rf.c:1071
+20021648 r rf_tx_dma_config	/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/B91_mesh_gw/../drivers/B91/lib/src/rf.c:1023
+20021660 A _NO_RETENTION_DATA_LMA_START
+2002166c A _DLM_DATA_LMA_START
