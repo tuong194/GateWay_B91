@@ -775,7 +775,7 @@ void uart_drv_init_B91m()
 	unsigned short div;
 	unsigned char bwpc;
 	uart_reset(UART_RX_NUM);
-	uart_set_pin(UART_TX_PIN ,UART_RX_PIN );// uart tx/rx pin set
+	uart_set_pin(UART_TX_PIN ,UART_RX_PIN );//RD_EDIT uart tx/rx pin set
 	uart_cal_div_and_bwpc(UART_DMA_BAUDRATE, sys_clk.pclk*1000*1000, &div, &bwpc);
 	uart_set_rx_timeout(UART_RX_NUM, bwpc, 12, UART_BW_MUL1);
 	uart_init(UART_RX_NUM, div, bwpc, UART_PARITY_NONE, UART_STOP_BIT_ONE);

@@ -10,7 +10,7 @@ ELF Header:
   Version:                           0x1
   Entry point address:               0x20000000
   Start of program headers:          52 (bytes into file)
-  Start of section headers:          1066700 (bytes into file)
+  Start of section headers:          1066988 (bytes into file)
   Flags:                             0x3, RVC, single-float ABI
   Size of this header:               52 (bytes)
   Size of program headers:           32 (bytes)
@@ -41,14 +41,14 @@ Section Headers:
   [17] .debug_loc        PROGBITS        00000000 07b98b 0340f4 00      0   0  1
   [18] .debug_aranges    PROGBITS        00000000 0afa80 001160 00      0   0  8
   [19] .debug_ranges     PROGBITS        00000000 0b0be0 00cbc0 00      0   0  8
-  [20] .debug_line       PROGBITS        00000000 0bd7a0 021a27 00      0   0  1
-  [21] .debug_str        PROGBITS        00000000 0df1c7 015871 01  MS  0   0  1
-  [22] .comment          PROGBITS        00000000 0f4a38 000037 01  MS  0   0  1
-  [23] .riscv.attributes RISCV_ATTRIBUTE 00000000 0f4a6f 00003b 00      0   0  1
-  [24] .debug_frame      PROGBITS        00000000 0f4aac 0056c4 00      0   0  4
-  [25] .symtab           SYMTAB          00000000 0fa170 004870 10     26 527  4
-  [26] .strtab           STRTAB          00000000 0fe9e0 005bb8 00      0   0  1
-  [27] .shstrtab         STRTAB          00000000 104598 000134 00      0   0  1
+  [20] .debug_line       PROGBITS        00000000 0bd7a0 021b41 00      0   0  1
+  [21] .debug_str        PROGBITS        00000000 0df2e1 015877 01  MS  0   0  1
+  [22] .comment          PROGBITS        00000000 0f4b58 000037 01  MS  0   0  1
+  [23] .riscv.attributes RISCV_ATTRIBUTE 00000000 0f4b8f 00003b 00      0   0  1
+  [24] .debug_frame      PROGBITS        00000000 0f4bcc 0056c4 00      0   0  4
+  [25] .symtab           SYMTAB          00000000 0fa290 004870 10     26 527  4
+  [26] .strtab           STRTAB          00000000 0feb00 005bb8 00      0   0  1
+  [27] .shstrtab         STRTAB          00000000 1046b8 000134 00      0   0  1
 Key to Flags:
   W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
   L (link order), O (extra OS processing required), G (group), T (TLS),
@@ -68,7 +68,7 @@ Program Headers:
   LOAD           0x024b90 0x0000ab90 0x20021660 0x0000c 0x0000c RW  0x1000
   LOAD           0x025000 0x00080000 0x2002166c 0x00026 0x00026 RW  0x1000
   LOAD           0x025ba0 0x0000aba0 0x20021670 0x00000 0x0019c RW  0x1000
-  RISCV_ATTRIBUT 0x0f4a6f 0x00000000 0x00000000 0x0003b 0x00000 R   0x1
+  RISCV_ATTRIBUT 0x0f4b8f 0x00000000 0x00000000 0x0003b 0x00000 R   0x1
 
  Section to Segment mapping:
   Segment Sections...

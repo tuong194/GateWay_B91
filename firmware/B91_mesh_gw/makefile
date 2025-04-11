@@ -95,7 +95,7 @@ all: B91_mesh_gw.elf secondary-outputs
 B91_mesh_gw.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Andes C Linker'
-	$(CROSS_COMPILE)gcc -O2 -nostartfiles -static -L"/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/proj_lib" -flto -g3 -mcpu=d25f -ffunction-sections -fdata-sections -mext-dsp -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -fshort-wchar -fuse-ld=bfd -fpack-struct -T"/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/boot.link" -Wl,--gc-sections -mext-dsp -ldsp -lm -o "B91_mesh_gw.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	$(CROSS_COMPILE)gcc -O2 -nostartfiles -static -L"/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/proj_lib" -flto -g3 -mcpu=d25f -ffunction-sections -fdata-sections -mext-dsp -fmessage-length=0 -fno-builtin -fomit-frame-pointer -fno-strict-aliasing -fshort-wchar -fuse-ld=bfd -fpack-struct -T"/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/boot.link" -Wl,--gc-sections -mext-dsp -ldsp -lm -o "B91_mesh_gw.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
@@ -140,7 +140,7 @@ clean:
 	-@echo ' '
 
 post-build:
-	-"E:\TELINK\Telink_code_9xxx\GateWay\firmware/tl_check_fw.bat"   B91_mesh_gw
+	-"E:\TUONG\TELINK\Telink_code_9xxx\GateWay\firmware/tl_check_fw.bat"   B91_mesh_gw
 	-@echo ' '
 
 secondary-outputs: $(SYMBOL_OUTPUTS) $(READELF_OUTPUTS) $(OBJDUMP_OUTPUTS) $(SIZE_OUTPUTS)

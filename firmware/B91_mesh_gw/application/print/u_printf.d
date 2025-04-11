@@ -2,7 +2,7 @@ application/print/u_printf.d application/print/u_printf.o: \
  ../application/print/u_printf.c ../application/print/../../drivers.h \
  ../application/print/../../drivers/B91/driver.h \
  ../application/print/../../drivers/B91/lib/include/axon/axon_api.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h \
  ../application/print/../../drivers/B91/lib/include/axon/axon_dep.h \
  ../application/print/../../drivers/B91/lib/include/pke/pke.h \
  ../drivers/B91/reg_include/register.h \
@@ -35,16 +35,16 @@ application/print/u_printf.d application/print/u_printf.o: \
  ../drivers/B91/reg_include/stimer_reg.h ../drivers/B91/gpio.h \
  ../drivers/B91/lib/include/plic.h ../drivers/B91/core.h \
  ../drivers/B91/lib/include/sys.h ../common/compiler.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/common/config/user_config.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/user_config.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/proj/mcu/config.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/config.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/mesh_provision/app_config_B91.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/version.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/mesh_config.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/user_app/user_app_config.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/user_app/user_app_default.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/default_config.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/common/config/user_config.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/user_config.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/proj/mcu/config.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/config.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/mesh_provision/app_config_B91.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/version.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/mesh_config.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/user_app/user_app_config.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/user_app/user_app_default.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/default_config.h \
  ../drivers/B91/analog.h ../drivers/B91/dma.h \
  ../drivers/B91/reg_include/gpio_reg.h \
  ../application/print/../../drivers/B91/lib/include/plic.h \
@@ -102,34 +102,34 @@ application/print/u_printf.d application/print/u_printf.o: \
  ../application/print/../../drivers/B91/ext_driver/../stimer.h \
  ../application/print/../../drivers/B91/ext_driver/../clock.h \
  ../application/print/../../drivers/B91/ext_driver/../compatibility_pack/cmpt.h \
- /cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/drivers/B91/gpio.h \
- /cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/drivers/B91/stimer.h \
+ /cygdrive/e/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/drivers/B91/gpio.h \
+ /cygdrive/e/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/drivers/B91/stimer.h \
  ../application/print/../../drivers/B91/ext_driver/ext_misc.h \
  ../application/print/../../drivers/B91/ext_driver/../uart.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/chip_adapt_layer/al.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/tl_common.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/common/utility.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/common/static_assert.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/common/assert.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/application/print/printf.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/proj/common/tstring.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/common/tstring.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/common/usb_dbg/myudb.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/common/usb_dbg/log_def_stack.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/common/usb_dbg/log_def_stack.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/blt_common.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/proj_lib/ble/blt_config.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/dual_mode_adapt.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/blt_common.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/blt_fw_sign.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/blt_led.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/blt_soft_timer.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/custom_pair.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/flash_fw_check.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/proj/common/types.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/chip_adapt_layer/al.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/tl_common.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/common/utility.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/common/static_assert.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/common/assert.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/application/print/printf.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/proj/common/tstring.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/common/tstring.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/common/usb_dbg/myudb.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/common/usb_dbg/log_def_stack.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/common/usb_dbg/log_def_stack.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/blt_common.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/proj_lib/ble/blt_config.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/dual_mode_adapt.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/blt_common.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/blt_fw_sign.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/blt_led.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/blt_soft_timer.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/custom_pair.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/flash_fw_check.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/proj/common/types.h \
  ../drivers/B91/gpio_default.h ../drivers/B91/gpio.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/application/print/u_printf.h \
- /cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/myprintf.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/application/print/u_printf.h \
+ /cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/myprintf.h \
  ../application/print/../../drivers/B91/ext_driver/software_pa.h \
  ../application/print/../../drivers/B91/ext_driver/mcu_boot.h
 
@@ -139,7 +139,7 @@ application/print/u_printf.d application/print/u_printf.o: \
 
 ../application/print/../../drivers/B91/lib/include/axon/axon_api.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/mi_api/mijia_ble_api/stdint.h:
 
 ../application/print/../../drivers/B91/lib/include/axon/axon_dep.h:
 
@@ -217,25 +217,25 @@ application/print/u_printf.d application/print/u_printf.o: \
 
 ../common/compiler.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/common/config/user_config.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/common/config/user_config.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/user_config.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/user_config.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/proj/mcu/config.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/proj/mcu/config.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/config.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/config.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/mesh_provision/app_config_B91.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/mesh_provision/app_config_B91.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/version.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/version.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/mesh_config.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/mesh_config.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/user_app/user_app_config.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/user_app/user_app_config.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/user_app/user_app_default.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/user_app/user_app_default.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/default_config.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/default_config.h:
 
 ../drivers/B91/analog.h:
 
@@ -355,63 +355,63 @@ application/print/u_printf.d application/print/u_printf.o: \
 
 ../application/print/../../drivers/B91/ext_driver/../compatibility_pack/cmpt.h:
 
-/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/drivers/B91/gpio.h:
+/cygdrive/e/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/drivers/B91/gpio.h:
 
-/cygdrive/e/TELINK/Telink_code_9xxx/GateWay/firmware/drivers/B91/stimer.h:
+/cygdrive/e/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/drivers/B91/stimer.h:
 
 ../application/print/../../drivers/B91/ext_driver/ext_misc.h:
 
 ../application/print/../../drivers/B91/ext_driver/../uart.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/chip_adapt_layer/al.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/chip_adapt_layer/al.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/tl_common.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/tl_common.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/common/utility.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/common/utility.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/common/static_assert.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/common/static_assert.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/common/assert.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/common/assert.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/application/print/printf.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/application/print/printf.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/proj/common/tstring.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/proj/common/tstring.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/common/tstring.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/common/tstring.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/common/usb_dbg/myudb.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/common/usb_dbg/myudb.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/common/usb_dbg/log_def_stack.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/common/usb_dbg/log_def_stack.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/common/usb_dbg/log_def_stack.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/common/usb_dbg/log_def_stack.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/blt_common.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/blt_common.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/proj_lib/ble/blt_config.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/proj_lib/ble/blt_config.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/dual_mode_adapt.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/dual_mode_adapt.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/blt_common.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/blt_common.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/blt_fw_sign.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/blt_fw_sign.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/blt_led.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/blt_led.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/blt_soft_timer.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/blt_soft_timer.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/custom_pair.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/custom_pair.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/flash_fw_check.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/flash_fw_check.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/proj/common/types.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/proj/common/types.h:
 
 ../drivers/B91/gpio_default.h:
 
 ../drivers/B91/gpio.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/application/print/u_printf.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/application/print/u_printf.h:
 
-/cygdrive/E/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/myprintf.h:
+/cygdrive/E/TUONG/TELINK/Telink_code_9xxx/GateWay/firmware/vendor/common/myprintf.h:
 
 ../application/print/../../drivers/B91/ext_driver/software_pa.h:
 
